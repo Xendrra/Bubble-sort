@@ -15,6 +15,5 @@ bubble_sort=function(data){
     if(vymeny==0) break         #pokud behem jednoho for neprobehne zadna vymena, vsechna cisla jsou serazena a prestava platit while
   }
 data=t(data)                    #vektor -> matice
-  #write.csv2(data, "vysledek_bubble_sort.csv")
-data[0:100]
+  write.csv2(data, "vysledek_bubble_sort.csv")
 }  
